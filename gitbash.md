@@ -59,7 +59,7 @@ Delete files and directories ***permantely and irreversevely!!!***
 Make a new directory
 
 ### Wildcards
-- ***/**** : All filenames
+- **** *** : All filenames
 - ***g**** : All filenames that begin with the character "g"
 - ***b*.txt*** : All filenames that begin with the character "b" and end qith the charaters ".txt"
 - ***Data???*** : Any filename that begins with the characters "Data" followed by exactly 3 more characters
