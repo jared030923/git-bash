@@ -1,6 +1,6 @@
 ### Commands
 ```sh
-#### First-time setup
+# First-time setup
 $ git config --global user.name "(name)"
 $ git config --global user.email (email address @ gachon.ac.kr)
 $ git config --global init.defaultBranch main
@@ -37,17 +37,17 @@ Unstaging a file
 Ignoring a file
 
 ###### *.a
-/# ignore all .a files
+`#` ignore all .a files
 ###### !lib.a
-/# but do track lib.a, even though you're ignoring /a files above
+`#` but do track lib.a, even though you're ignoring /a files above
 ###### /TODO
-/# only ignore the TODO file in the current directory, not subdir/TODO
+`#` only ignore the TODO file in the current directory, not subdir/TODO
 ###### build/
-/# ignore all files in any directory named build
+`#` ignore all files in any directory named build
 ###### doc/*.txt
-/# ignore doc/notes.txt, but not doc/server/arch.txt
+`#` ignore doc/notes.txt, but not doc/server/arch.txt
 ###### dox/**/*.pdf
-/# ignore all .pdf files in the doc/ directory and any of its subdirectories
+`#` ignore all .pdf files in the doc/ directory and any of its subdirectories
 
 #### $ git commit -m "commit message"
 Commit files
